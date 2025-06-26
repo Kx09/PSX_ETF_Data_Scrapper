@@ -19,13 +19,7 @@ A Python-based scraper to collect and organize data on Exchange-Traded Funds (ET
    ```bash
    pip install scrapy
 
-2 **Running the Spider:**
-```bash
-python TopETFs.py
 
-
-
-once done with the installation of requirements 
 
 
 
