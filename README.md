@@ -17,8 +17,15 @@ A Python-based scraper to collect and organize data on Exchange-Traded Funds (ET
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/yourusername/psx-etf-scraper.git
-   cd psx-etf-scraper
+   pip install scrapy
+
+2 **Running the Spider:**
+```bash
+python TopETFs.py
 
 
-pip install -r requirements.txt
+
+once done with the installation of requirements 
+
+
+
