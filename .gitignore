@@ -1,0 +1,25 @@
+# Python specific ignored files and directories
+__pycache__/          # Directory where Python stores compiled bytecode files (.pyc)
+*.pyc                 # Compiled Python files (individual files, though __pycache__ covers most)
+*.pyo                 # Optimized compiled Python files
+*.pyd                 # Python DLL files (on Windows)
+.Python               # A specific directory sometimes created by Python
+
+# Virtual environments
+env/                  # Common name for a virtual environment directory
+venv/                 # Another common name for a virtual environment directory
+.venv/                # Another common name for a virtual environment directory
+
+# Environment variables and sensitive configurations
+.env                  # File often used to store environment variables (e.g., API keys, database credentials)
+config.ini            # If your configuration file contains sensitive data.
+secrets.py            # If you store secrets directly in a Python file.
+*.json                # Be careful with this; only ignore if you know JSON files are meant to be sensitive (e.g., Google Cloud credentials)
+*.txt                 # If your scraper outputs TXT files that are temporary or contain sensitive data
+data/                 # If you have a 'data' directory for temporary output that shouldn't be version controlled
+logs/                 # If you have a 'logs' directory for log files
+*.log                 # Specific log files
+
+# Operating System temporary files
+.DS_Store             # macOS directory metadata files
+Thumbs.db             # Windows thumbnail cache files
